@@ -1,0 +1,6 @@
+Instalar las siguientes tecnologias:
+
+streamlit
+pandas
+plotly
+wbdata
