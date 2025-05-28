@@ -3,7 +3,7 @@
 # 🌎 Dashboard Económico de América Latina
 
 <p align="center">
-<a href=""><img src="https://i.imgur.com/ma1kNJS.jp" style="height: 75%; width:75%;"/></center></a></p>
+<a href="https://youtu.be/vJapzH_46a8"><img src="https://i.imgur.com/ma1kNJS.jpg" style="height: 75%; width:75%;"/></center></a></p><a href=""><img src="https:" style="height: 75%; width:75%;"/></center></a></p>
 
 Este proyecto analiza el crecimiento económico de países latinoamericanos entre 2010 y 2023. Se utilizan indicadores como:
 
