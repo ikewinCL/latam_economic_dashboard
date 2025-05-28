@@ -5,8 +5,9 @@ import plotly.express as px
 
 # Cargar datos
 df = pd.read_csv("data/datos_latam_limpios.csv")
+df['Año'] = df['Año'].astype(int)  # 👈 Corrige el eje X con enteros
 
-# Ver columnas disponibles (útil para depurar)
+# Ver columnas disponibles
 st.write("Columnas disponibles:", df.columns.tolist())
 
 # Título y descripción
@@ -24,4 +25,5 @@ df_filtrado = df[df['Pais'] == pais]
 
 fig = px.line(df_filtrado, x='Año', y=indicador, title=f"{indicador} en {pais}")
 st.plotly_chart(fig)
+
 
