@@ -6,6 +6,10 @@ import plotly.express as px
 # Cargar datos
 df = pd.read_csv("data/datos_latam_limpios.csv")
 
+# Ver columnas disponibles
+st.write("Columnas disponibles:", df.columns.tolist())
+
+
 # Título y descripción
 st.title("📊 Dashboard Económico de América Latina")
 st.markdown("Visualización interactiva de indicadores económicos entre 2010 y 2023.")
